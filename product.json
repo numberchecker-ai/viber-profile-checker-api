@@ -35,7 +35,7 @@
     {
       "type": "viber_senior",
       "name": "Profile Checker",
-      "min": 1000,
+      "min": 1,
       "max": 10000000,
       "fields": [
         "number",
@@ -50,11 +50,14 @@
         "skin_color",
         "gender",
         "avatar"
-      ]
+      ],
+      "product_id": 30,
+      "min_billable_numbers": 500,
+      "available": true
     }
   ],
   "pricing_url": "https://numberchecker.ai/pricing",
   "maintainer": "NumberChecker",
   "license": "MIT",
-  "last_reviewed": "2026-08-18"
+  "last_reviewed": "2026-10-30"
 }
